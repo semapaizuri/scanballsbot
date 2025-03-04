@@ -21,5 +21,17 @@ class Pokemon:
     evoStage: int
     badass: bool
 
+    def Display(self):
+        print("-------------------------------")
+        print(f"pokedex id: {self.pokedexID}")
+        print(f"name: {self.name}")
+        print(f"type: {self.type}")
+        print(f"stage of evolution: {self.evoStage}")
+        print(f"is it badass: {self.badass}")
+        print("-------------------------------")
+
 tobi = User(22, 'Simon', 18)
 tobi.Display()
+
+blastoise = Pokemon(9, "Blastoise", "water", 3, True)
+blastoise.Display()
