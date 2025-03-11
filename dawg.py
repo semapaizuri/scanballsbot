@@ -8,7 +8,7 @@ ERROR_TEXT = "NO CATS???"
 offset = -1
 counter = 0
 dog_link: str
-dog_response = requests.Response
+dog_response: requests.models.Response
 
 while counter < 100:
     print("attempt =", counter)
